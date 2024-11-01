@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "blueserver"
+version = "0.1.0"
+description = ""
+authors = ["Eva Haynes <132402107+ctrlalteva@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.13,<3.14"
+atproto = "^0.0.55"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
